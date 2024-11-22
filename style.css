@@ -1,0 +1,104 @@
+/* General Body and Page Layout */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    margin: 0;
+    padding: 0;
+}
+
+/* Main Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+    margin-top: 50px;
+}
+
+/* Header */
+h1 {
+    text-align: center;
+    color: #333;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+/* Profile Information Section */
+.profile-info {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.profile-info p {
+    font-size: 18px;
+    color: #555;
+}
+
+/* Styling for the Profile Picture */
+.profile-pic {
+    display: block;
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.profile-pic-container {
+    text-align: center;
+}
+
+/* Job Section */
+.job-info {
+    margin-top: 20px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #333;
+}
+
+/* Form Section for Uploading Profile Picture */
+.upload-form {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.upload-form input[type="file"] {
+    padding: 10px;
+    margin-bottom: 15px;
+    font-size: 16px;
+}
+
+.upload-form button {
+    padding: 12px 20px;
+    background-color: #5cb85c;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+.upload-form button:hover {
+    background-color: #4cae4c;
+}
+
+/* Logout Button */
+.logout-link {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.logout-link a {
+    color: #d9534f;
+    text-decoration: none;
+}
+
+.logout-link a:hover {
+    text-decoration: underline;
+}
